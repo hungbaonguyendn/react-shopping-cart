@@ -1,0 +1,49 @@
+{
+    "products":[
+        {"_id":"dress1",
+        "title":"Chi Chi London premium",
+        "image":"/images/dress1.jpg",
+        "price":72,
+        "description":"Chi Chi London premium lace midi dress with cap sleeve in navy",
+        "availableSizes":["XL","XXL"]
+        },
+        {"_id":"dress2",
+            "title":"Women's Casual Dress",
+            "image":"/images/dress2.jpg",
+            "price":56.9,
+            "description":"Fado  Mua Women Dresses, Women's Casual Dress Fashion Women O-Neck Floral Printed Short Sleeve Bandage",
+            "availableSizes":["L","XL"]
+        },
+        {"_id":"dress3",
+            "title":"Ankle-Length Women Dresses",
+            "image":"/images/dress3.jpg",
+            "price":65.5,
+            "description":"Folk's Go SHEIN Black Party Elegant Flower Applique Contrast Mesh Sleeve",
+            "availableSizes":["S","L","XL"]
+        },
+        {"_id":"dress4",
+            "title":"Alibaba Summer Black Lace Sleeveless",
+            "image":"/images/dress4.jpg",
+            "price":75.5,
+            "description":"Alibaba Summer Black Lace Sleeveless Dinner Dresses Party Wear Sexy Dresses Women Lady - Buy Dresses Women ",
+            "availableSizes":["S","XL","XXL"]
+        },
+        {"_id":"dress5",
+            "title":"ECOWISH Women Dresses",
+            "image":"/images/dress5.jpg",
+            "price":95.5,
+            "description":"Fado Mua ECOWISH Women Dresses Summer Tie Front V-Neck Spaghetti Strap Button Down A-Line Backless Swing ",
+            "availableSizes":["M","S","L"]
+        },
+        {"_id":"dress6",
+            "title":"Chaofanjiancai Elegant Women's Maxi Dress",
+            "image":"/images/dress6.jpg",
+            "price":55,
+            "description":"Chaofanjiancai Elegant Women's Maxi Dress Floral Printed Summer Short Sleeves Casual O-Neck Long Maxi Dress",
+            "availableSizes":["L","XL","XXL"]
+        }
+        
+
+
+    ]
+}
