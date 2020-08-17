@@ -12,6 +12,11 @@ body,input,select,button,textarea, a{
   font-size: 1.6rem;
   
 }
+select{
+  padding: .5em;
+  border-radius: .3rem;
+  
+}
 a{
   text-decoration: none;
 }
@@ -64,16 +69,14 @@ footer{
 /*products */
 .products{
   display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding:0;
-  margin:0;
+  flex-wrap: wrap; 
+  padding:1rem;
+
   list-style-type: none;
 }
 .products li{
-  flex: 0 1 29rem;
-  height:47rem;
+  flex: 0 1 34rem;
+  height:52rem;
   padding:1rem;
  margin-bottom: .5rem;
 }
@@ -88,8 +91,8 @@ footer{
   margin:0;
 }
 .product img{
-  max-width: 37rem;
-  max-height: 37rem;
+  max-width: 41rem;
+  max-height: 43rem;
 }
 .product-price{
   display: flex;
@@ -120,4 +123,16 @@ footer{
 }
 .button.primary{
   background-color: #ffc000;
+}
+/* Filter*/
+.filter{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1rem;
+  margin:1rem;
+ border-bottom: .1rem #c0c0c0 solid;
+}
+.filter div{
+  flex:1;
 }
