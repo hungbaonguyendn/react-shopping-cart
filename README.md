@@ -16,3 +16,25 @@
    13.Handle onSubmit Form Event by this.createOrder.
    14.Create order object and pass to parent to handle it.
    15.Publish changes.
+9.Add Modal and Animation
+   1.Set Active Task  Management Spreadsheet
+   2.Create branch animation-modal
+   3.Show Animation
+   4.Install react-reveal
+   5.Create fade effect from bottom for products
+   6.Create fade left for add to cart
+   7.Create fade right for show checkout form
+   8.Open Mpdal by click on product image
+   9.Install react-modal
+   10.products.js
+   11.Import Modal
+   12.Set state for product to null
+   13.Define openModal and closeModal
+   14.Show Modal if product exist
+   15.Create Modal
+   16.Create zoom effect for modal
+   17.index.css
+   18.Style product Details
+   19.Commit and Publish changes
+   20.Pull request,merge, change to master
+   21.Task Management Spreadsheet set it done

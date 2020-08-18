@@ -208,3 +208,25 @@ label{
   padding-bottom:.5rem;
   font-weight: bold;
 }
+/* product details*/
+.product-details{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img{
+  margin:0 auto;
+  max-width: 46rem;
+  max-height: 100vh;
+}
+.product-details-description{
+  flex:1 1;
+  margin:1rem;
+}
+.close-modal{
+  position: absolute;
+  right:1rem;
+  top:2.5rem;
+  z-index: 1000;
+}
