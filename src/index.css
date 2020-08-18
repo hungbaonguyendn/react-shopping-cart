@@ -181,3 +181,52 @@ padding:.5rem;
   font-size: 2rem;
   font-weight: bold;
 }
+/* Checkou form*/
+form{
+  width: 100%;
+  border:.1rem #c0c0c0 solid;
+  border-radius: .5rem;
+  padding:1rem;
+  background-color: #dce0e4;
+}
+.form-container{
+  width: 100%;
+  padding:0;
+  list-style-type: none;
+
+}
+.form-container li{
+  display: flex;
+  flex-direction: column;
+  padding:.5rem;
+}
+input{
+  padding:1rem;
+  border:.1rem #c0c0c0c0 solid;
+}
+label{
+  padding-bottom:.5rem;
+  font-weight: bold;
+}
+/* product details*/
+.product-details{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img{
+  margin:0 auto;
+  max-width: 46rem;
+  max-height: 100vh;
+}
+.product-details-description{
+  flex:1 1;
+  margin:1rem;
+}
+.close-modal{
+  position: absolute;
+  right:1rem;
+  top:2.5rem;
+  z-index: 1000;
+}
