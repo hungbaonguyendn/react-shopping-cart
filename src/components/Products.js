@@ -5,7 +5,9 @@ import Modal from 'react-modal';
 import Zoom from 'react-reveal/Zoom';
 import { connect } from 'react-redux';
 import {fetchProducts} from "../actions/productActions";
-export class Products extends Component {
+
+
+class Products extends Component {
     constructor(props){
         super(props);
         this.state={
@@ -97,5 +99,5 @@ export class Products extends Component {
         )
     }
 }
-export default connect((state)=>({products:state.products.items}),{
+export default connect((state)=>({products:state.products.filteredItems}),{
     fetchProducts})(Products);

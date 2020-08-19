@@ -89,3 +89,24 @@
     35.commit and publish
     36 send pull request and merge
     37.update spreadsheet
+12.Add Redux To Filter
+    1.Update task and branch
+    2.types.js
+    3.create FILTER_PRODUCTS_BY_SIZE
+    4.create ORDER_PRODUCTS_BY_PRICE
+    5.actions/productACtions
+    6.create filterProducts
+    7.move app.js filterProducts logic here
+    8.create sortProducts
+    9.move app.js filter logic here
+    10.reducers/productReducers.js
+    11.case FILTER_PRODUCTS_BY_SIZE
+    12.case FILTER_PRODUCTS_BY_PRICE
+    13.Filter.js
+    14.connect props:size,sort,items and filteredItems
+    15. connect actions:filterProducts and sortProducts
+    16.show loading if no filteredProducts
+    17.App.js
+    18.remove Filter props
+    19.check result
+    20.update task and branch
