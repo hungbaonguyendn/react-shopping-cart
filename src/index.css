@@ -230,3 +230,28 @@ label{
   top:2.5rem;
   z-index: 1000;
 }
+
+/* Order Derails */
+.order-detail{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ height:100%; 
+}
+.success-message{
+ color:green;
+}
+
+.order-detail li{
+  display:flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+.order-detail li div{
+  padding:10px;
+}
+.order-detail .items{
+  text-align: right;
+  padding:0;
+}
